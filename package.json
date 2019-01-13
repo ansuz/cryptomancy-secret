@@ -1,11 +1,19 @@
 {
-  "name": "secret",
-  "version": "1.0.0",
+  "name": "cryptomancy-secret",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "author": "ansuz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cryptomancy-format": "^1.0.1",
+    "secrets.js-grempe": "git+https://github.com/grempe/secrets.js.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansuz/cryptomancy-secret"
+  }
 }
